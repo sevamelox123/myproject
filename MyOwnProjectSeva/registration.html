@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WebSite</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class = "wrapper">
+     <nav class = "navbar">
+      <div class ="container">
+         <a href = "main.html" class = "navbar-brand">MySauna</a>
+
+         <div class = "navbar-wrap">
+            <ul class ="navbar-menu">
+               <li><a href = "/about.html">О нас</a></li>
+               <li><a href = "/registration.html">Регистрация</a></li>
+               <li><a href = "/products.html">Ассортимент</a></li>
+               <li><a href = "/contacts.html" class = "contacts">Контакты</a></li>
+            </ul>
+         </div>
+      </div>
+     </nav>
+     <div class = "content">
+      <form action="authorization.php" method="POST">
+        Авторизация<br>
+        Логин: <input name="login" type="text">
+        Пароль: <input name="password" type="password">
+        <input type="submit">
+      </form>
+      <form action="registration.php" method="POST">
+        Регистрация<br>
+        Логин: <input name="login" type="text">
+        Пароль: <input name="password" type="password">
+        <input type="submit">
+      </form>
+     </div>
+     <div class = "footer">
+         <nav class = "navbar-footer">
+          <div class = "container-footer">
+            <div class = "navbar-footer-wrap">
+              <ul class ="navbar-footer-menu">
+                <li><a href = "/about.html">О нас</a></li>
+                <li><a href = "/registration.html">Мы в Вконтакте</a></li>
+                <li><a href = "/products.html">Ассортимент</a></li>
+                <li><a href = "/contacts.html" class = "contacts">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+         </nav>
+     </div>
+</body>
+</html>
